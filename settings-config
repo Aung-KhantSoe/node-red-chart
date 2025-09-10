@@ -10,11 +10,9 @@ data:
         type: "credentials",
         users: [{
           username: "admin",
-          password: "adminpass123"
+          password: "$2b$08$qnorolKN1KlBvC8WWr1Q3uY5H855DNShvZYl33Xaeb.32U3pehye.",
           permissions: "*"
         }]
       },
-      httpNodeAuth: {user:"user", pass:"adminpass123"},
-      httpStaticAuth: {user:"viewer", pass:"adminpass123"},
     }
 
