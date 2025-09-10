@@ -102,8 +102,8 @@ The command removes all the Kubernetes components associated with the chart and 
 | npmrc.registry | string | `"https://registry.npmjs.org"` | Configuration to use any compatible registry |
 | persistence.accessMode | string | `"ReadWriteOnce"` | Persistence access mode |
 | persistence.enabled | bool | `false` | Use persistent volume to store data |
-| persistence.keepPVC | bool | `false` | ## Keep a created Persistent volume claim when uninstalling the helm chart (default: false) |
-| persistence.size | string | `"5Gi"` | Size of persistent volume claim |
+| persistence.keepPVC | bool | `true` | ## Keep a created Persistent volume claim when uninstalling the helm chart (default: false) |
+| persistence.size | string | `"20Gi"` | Size of persistent volume claim |
 | podAnnotations | object | `{}` | Pod annotations |
 | podLabels | object | `{}` | Labels to add to the node-red pod. default: {} |
 | podSecurityContext | object | `{"fsGroup":1000,"runAsUser":1000}` | Pod Security Context see [values.yaml](values.yaml) |
