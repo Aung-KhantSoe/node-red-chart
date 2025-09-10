@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: settings-config
+data:
+  settings.js: |
+    module.exports = {
+      flowFile: 'flows.json',
+      adminAuth: {
+        type: "credentials",
+        users: [{
+          username: "admin",
+          password: "adminpass123"
+          permissions: "*"
+        }]
+      },
+      httpNodeAuth: {user:"user", pass:"adminpass123"},
+      httpStaticAuth: {user:"viewer", pass:"adminpass123"},
+    }
+
