@@ -9,11 +9,11 @@ image:
   # -- The image registry to pull from
   registry: docker.io
   # -- The image repository to pull from
-  repository: nodered/node-red
+  repository: aungkhantsoe/node-red
   # -- The image pull policy
   pullPolicy: IfNotPresent
   # -- The image tag to pull, default: `Chart.appVersion`
-  tag: ""
+  tag: "4.0.9"
 
 rbac:
   # If enabled, roles will be created and bound to the service account. default: true
