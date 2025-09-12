@@ -173,7 +173,7 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   hosts:
     #  Ingress accepted hostnames
-    - host: chart-example.local
+    - host: uat-int-nodered.ayabankho.com
       paths:
           # -- The base path
         - path: /
