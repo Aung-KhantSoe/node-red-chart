@@ -146,7 +146,7 @@ persistence:
   ##   GKE, AWS & OpenStack)
   ##
   # -- Type of persistent volume claim
-  storageClass: "alicloud-disk-essd"
+  storageClass: "nfs-client"
   ##
   ## If you want to reuse an existing claim, you can pass the name of the PVC using
   ## the existingClaim variable
