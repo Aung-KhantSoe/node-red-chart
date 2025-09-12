@@ -173,7 +173,7 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   hosts:
     #  Ingress accepted hostnames
-    - host: uat-core-int-notered.ayabankho.com
+    - host: uat-core-int-nodered.ayabankho.com
       paths:
           # -- The base path
         - path: /
